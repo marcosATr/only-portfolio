@@ -1,4 +1,4 @@
-import { Box, Button, Container, Divider, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Button, Container, Divider, Flex, Heading, Image, position, Text } from "@chakra-ui/react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 function MainHeader() {
@@ -18,9 +18,9 @@ function MainHeader() {
             Check it out
           </Button>
         </Box>
-        <Flex w="50%" p={4} pr={0} justifyContent='flex-end'>
-          <Box w="480px" height='550px'>
-            <Image pl={8} pt={8} alt='intro' src='/images/1.avif' objectFit='fill' width='100%' height='100%'/>
+        <Flex w="50%" p={4} pr={0} justifyContent="flex-end"  _before={{ backgroundImage: "/images/bg.webp", content: '" "', width: "120%", height: "120%", position: "absolute", top: "0", left: "0", backgrounSize: "cover", backgroundPosition: "120% 0%", zIndex:'-2',backgroundRepeat: "no-repeat",filter: 'blur(20px)' }}>
+          <Box w="480px" height="550px">
+            <Image pl={8} pt={8} alt="intro" src="/images/1.avif" objectFit="fill" width="100%" height="100%" />
           </Box>
         </Flex>
       </Flex>

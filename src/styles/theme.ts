@@ -4,7 +4,8 @@ export const theme = extendTheme({
   styles: {
     global: {
       'body': {
-        backgroundColor: 'gray.900',
+        backgroundColor: '#131313',
+        overflowX: 'hidden',
       },
     },
   },
