@@ -3,10 +3,11 @@ import Link from "next/link";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Link as A } from "@chakra-ui/react";
 import { motion } from 'framer-motion'
+import { Previews } from "../../utils/previews";
 
 
 
-function ProjectItem() {
+function ProjectItem({html, metadata}: Previews) {
   const MotionBox = motion<BoxProps>(Box)
   return (
     <Container maxW="container.xl" color="white" px={0} py={8}>
