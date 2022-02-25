@@ -19,7 +19,7 @@ const Home = ({ data }: DataProps) => {
       <Nav />
       <MainHeader />
       <ProjectListing data={data} />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

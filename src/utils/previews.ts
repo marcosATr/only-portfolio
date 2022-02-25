@@ -10,6 +10,7 @@ interface Metadata {
   stack: string;
   featured: string;
   description: string;
+  slug: string;
 }
 
 interface Html {

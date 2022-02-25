@@ -1,12 +1,13 @@
 ---
-title: Pokedéx com React e Redux
+title: Pokedéx using React and Redux
+slug: pokedex-using-react-and-redux
 date: 22 Jan 2022
-stack: React, Redux, Styled Components
-featured: /img/pokedex.png
+featured: /images/pokedex.png
 description: Everyone has a pokedex project. I didn't, up until now. This one was made with Redux and React!
+stack: React, Redux, Styled Components
 ---
 
-![Pokedéx com React e Redux](/img/pokedex.png)
+![Pokedéx com React e Redux](/images/pokedex.png)
 
 # Pokedéx com React e Redux
 
@@ -22,16 +23,16 @@ Link deploy: [https://serene-wright-e2f86e.netlify.app/](https://serene-wright-e
 
 Carrossel animado:
 
-![pokedex2](/img/pokedex2.png)
+![pokedex2](/images/pokedex2.png)
 
 Redux _Action Chaining_ para fazer chamadas consecutivas à API.
 
-![pokedex3](/img/pokedex3.png)
+![pokedex3](/images/pokedex3.png)
 
 Responsividade:
 
-![pokedex4](/img/pokedex4.png)
+![pokedex4](/images/pokedex4.png)
 
 Componentes reutilizáveis, com estados independentes e que obedecem ao clique fora do elemento.
 
-![pokedex5](/img/pokedex5.png)
+![pokedex5](/images/pokedex5.png)

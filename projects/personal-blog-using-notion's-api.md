@@ -1,12 +1,13 @@
 ---
-title: Portfolio - Do design ao deploy
+title: Personal blog using Notion's API
+slug: personal-blog-using-notion's-api
 date: 23 Jan 2022
 stack: Next, Chakra UI, Fastify
-featured: /img/portfolio1.png
+featured: /images/portfolio1.png
 description: A portfolio deeply integrated with the Notion API. Integration with notion makes it easy to manage and create new content.
 ---
 
-![Portfolio - Do design ao deploy](/img/portfolio1.png)
+![Portfolio - Do design ao deploy](/images/portfolio1.png)
 Esse projeto nasceu da vontade de construir uma integração com o Notion. A api do Notion não é exatamente um banco de dados e a extração e manipulação de dados podem ser um obstáculo. Por outro lado, o Notion oferece a possibilidade de escrever com um editor poderoso, que oferece suporte à imagens, legendas, vídeos, snippets de códigos, etc...
 
 Para facilitar a integração do [Notion](http://notion.so/) ao Next, criei uma api com [Fastify](https://www.fastify.io/) que processa todos os dados das páginas do Notion e devolve para o Front de maneira organizada. É nessa camada que ocorrem o processamento de tags HTML de texto, por exemplo: parágrafos contendo links.
