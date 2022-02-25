@@ -4,7 +4,7 @@ import fs from "fs/promises";
 
 const basepath = "./projects";
 
-interface Metadata {
+export interface Metadata {
   title: string;
   date: string;
   stack: string;
