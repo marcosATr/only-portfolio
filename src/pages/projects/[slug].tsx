@@ -6,12 +6,13 @@ import showdown from "showdown";
 import { Metadata } from "../../utils/previews";
 import { Text } from "@chakra-ui/react";
 import ReactHtmlParser from "react-html-parser";
+import { Previews } from "../../utils/previews";
 
 interface IParams extends ParsedUrlQuery {
   slug: string;
 }
 
-function Projects({ metadata, html }) {
+function Projects({ metadata, html }:Previews) {
   return (
     <>
       <Nav />
