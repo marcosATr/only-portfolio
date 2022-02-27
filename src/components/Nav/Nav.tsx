@@ -6,7 +6,7 @@ import LinkItem from "../LinkItem/LinkItem";
 
 function Nav() {
   return (
-    <Box w="100%" h="auto" bg={"#131313"} padding={6} color="white" position='fixed' zIndex='3' top='0'>
+    <Box w="100%" h="auto" bg={"#131313"} padding={6} color="white" position='fixed' zIndex='3' top='0' opacity={0.95}>
       <Container maxW="container.xl">
         <Flex justifyContent={"space-between"} align="center" w="100%">
           <Box fontSize="2xl" fontWeight="bold" lineHeight="1.4">

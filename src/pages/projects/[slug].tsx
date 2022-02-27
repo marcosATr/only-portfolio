@@ -77,7 +77,7 @@ function Projects({ metadata, html }: Previews) {
   return (
     <>
       <Nav />
-      <Container maxW="container.xl" mt="150px" py={4}>
+      <Container maxW="container.xl" mt="150px" pt={0} pb={6}>
         <Box position="relative" h="360px" w="100%">
           <Image alt={metadata.description} src={metadata.featured} objectFit="cover" h="100%" w="100%" />
         </Box>
