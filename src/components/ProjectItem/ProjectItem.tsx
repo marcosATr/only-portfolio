@@ -61,7 +61,7 @@ function ProjectItem({ html, metadata }: Previews) {
         <Box maxW="385px" py={[4, 0]}>
           <Text>{metadata.description}</Text>
           <Link href={"/projects/" + metadata.slug} passHref>
-            <A color="yellow.300" _hover={{ color: "white" }}>
+            <A color="yellow.300" _hover={{ color: "white" }} _focus={{boxShadow: 'none'}}>
               <HStack my={8} spacing="8">
                 <Text fontSize="xl">Read More</Text>
                 <FaLongArrowAltRight />
