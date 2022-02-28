@@ -3,14 +3,14 @@ import { extendTheme } from "@chakra-ui/react";
 export const theme = extendTheme({
   styles: {
     global: {
-      html: {
+      'html': {
         width: "100%",
         height: "100%",
-        overflow: "hidden",
+        overflowX: "hidden",
       },
-      body: {
+      'body': {
         backgroundColor: "#131313",
-        overflow: "auto",
+        overflowX: "hidden",
       },
     },
   },
