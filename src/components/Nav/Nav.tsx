@@ -12,14 +12,14 @@ function Nav() {
           <Box fontSize="2xl" fontWeight="bold" lineHeight="1.4">
             <LinkItem href="/">marcosATr</LinkItem>
           </Box>
-          <HStack spacing="30px" fontSize="xl">
+          {/* <HStack spacing="30px" fontSize="xl">
             <Box>
               <LinkItem href="/">Projects</LinkItem>
             </Box>
             <Box>
               <LinkItem href="/">CV</LinkItem>
             </Box>
-          </HStack>
+          </HStack> */}
           <HStack spacing="30px" fontSize="xl">
             <Box>
               <LinkItem href="/">

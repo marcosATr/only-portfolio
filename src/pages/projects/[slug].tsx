@@ -20,6 +20,13 @@ const ArticleBox = styled(Box)`
     opacity: 0.1;
   }
   ,
+  a,
+  p a {
+    color: #c5e943;
+    text-decoration: solid #c5e943;
+    text-decoration-line: revert;
+  }
+  ,
   img {
     margin: 50px 0;
   }
@@ -79,11 +86,24 @@ function Projects({ metadata, html }: Previews) {
       <Nav />
       <Container maxW="container.xl" mt="150px" pt={0} pb={6}>
         <Box position="relative" h="360px" w="100%">
-          <Image alt={metadata.description} src={metadata.featured} objectFit="cover" h="100%" w="100%" />
+          <Image
+            alt={metadata.description}
+            src={metadata.featured}
+            objectFit="cover"
+            h="100%"
+            w="100%"
+          />
         </Box>
       </Container>
       <Container maxW="container.lg">
-        <Tag m="1rem 2rem" fontSize="xl" backgroundColor="#c5e943" px={8} py={2} borderRadius="20px">
+        <Tag
+          m="1rem 2rem"
+          fontSize="xl"
+          backgroundColor="#c5e943"
+          px={8}
+          py={2}
+          borderRadius="20px"
+        >
           {metadata.date}
         </Tag>
         <ArticleBox>
